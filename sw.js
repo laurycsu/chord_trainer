@@ -1,5 +1,5 @@
 // Service Worker for Chord Trainer — cache-first
-const CACHE = "chord-trainer-v1";
+const CACHE = "chord-trainer-v2";
 
 // Add any extra files you use (audio/images) to ASSETS
 const ASSETS = [
@@ -8,6 +8,7 @@ const ASSETS = [
   "./manifest.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
+  "./sounds/metronome.mp3"
   // e.g. "./sounds/metronome.wav", "./images/fretboard.png"
 ];
 
